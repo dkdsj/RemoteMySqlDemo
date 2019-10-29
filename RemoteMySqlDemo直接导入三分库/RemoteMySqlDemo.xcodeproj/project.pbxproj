@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0D81E1235DA3DD0007AC41 /* OHMysqlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D81E0235DA3DD0007AC41 /* OHMysqlHelper.m */; };
+		3A110D972367E2C80082D375 /* OHMySQLQueryContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D1F2367E2C80082D375 /* OHMySQLQueryContext.m */; };
+		3A110D982367E2C80082D375 /* OHMySQLQueryRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D212367E2C80082D375 /* OHMySQLQueryRequestFactory.m */; };
+		3A110D992367E2C80082D375 /* OHCharsetEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D242367E2C80082D375 /* OHCharsetEncoding.m */; };
+		3A110D9A2367E2C80082D375 /* OHJoinConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D262367E2C80082D375 /* OHJoinConstants.m */; };
+		3A110D9B2367E2C80082D375 /* OHSSLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D352367E2C80082D375 /* OHSSLConfig.m */; };
+		3A110D9C2367E2C80082D375 /* OHMySQLStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D362367E2C80082D375 /* OHMySQLStore.m */; };
+		3A110D9D2367E2C90082D375 /* OHMySQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D372367E2C80082D375 /* OHMySQLUser.m */; };
+		3A110D9E2367E2C90082D375 /* OHMySQLTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D382367E2C80082D375 /* OHMySQLTimeline.m */; };
+		3A110D9F2367E2C90082D375 /* OHMySQLQueryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D392367E2C80082D375 /* OHMySQLQueryRequest.m */; };
+		3A110DA02367E2C90082D375 /* OHMySQLContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D3D2367E2C80082D375 /* OHMySQLContainer.m */; };
+		3A110DA12367E2C90082D375 /* OHMySQLStoreCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D3F2367E2C80082D375 /* OHMySQLStoreCoordinator.m */; };
+		3A110DA22367E2C90082D375 /* client_plugin.h.pp in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D642367E2C80082D375 /* client_plugin.h.pp */; };
+		3A110DA32367E2C90082D375 /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A110D862367E2C80082D375 /* libmysqlclient.a */; };
+		3A110DA42367E2C90082D375 /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A110D882367E2C80082D375 /* libmysqlclient.a */; };
+		3A110DA52367E2C90082D375 /* NSString+OHSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D8A2367E2C80082D375 /* NSString+OHSerialization.m */; };
+		3A110DA62367E2C90082D375 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D8B2367E2C80082D375 /* NSString+Utility.m */; };
+		3A110DA72367E2C90082D375 /* NSObject+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D8F2367E2C80082D375 /* NSObject+Mapping.m */; };
+		3A110DA82367E2C90082D375 /* NSString+Escaping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D902367E2C80082D375 /* NSString+Escaping.m */; };
+		3A110DA92367E2C90082D375 /* NSData+OHSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D932367E2C80082D375 /* NSData+OHSerialization.m */; };
+		3A110DAA2367E2C90082D375 /* NSNumber+OHSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D942367E2C80082D375 /* NSNumber+OHSerialization.m */; };
+		3A110DAB2367E2C90082D375 /* OHMySQLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A110D962367E2C80082D375 /* OHMySQLSerialization.m */; };
+		3A110DAD2367E3000082D375 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A110DAC2367E3000082D375 /* libc++.tbd */; };
+		3A8F69C12359659300AF6F32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F69C02359659300AF6F32 /* AppDelegate.m */; };
+		3A8F69C72359659300AF6F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F69C62359659300AF6F32 /* ViewController.m */; };
+		3A8F69CA2359659300AF6F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F69C82359659300AF6F32 /* Main.storyboard */; };
+		3A8F69CC2359659400AF6F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F69CB2359659400AF6F32 /* Assets.xcassets */; };
+		3A8F69CF2359659400AF6F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F69CD2359659400AF6F32 /* LaunchScreen.storyboard */; };
+		3A8F69D22359659400AF6F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F69D12359659400AF6F32 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1869E005909CEC69C8FEC9D1 /* Pods_RemoteMySqlDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteMySqlDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0D81DF235DA3DD0007AC41 /* OHMysqlHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHMysqlHelper.h; sourceTree = "<group>"; };
+		3A0D81E0235DA3DD0007AC41 /* OHMysqlHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHMysqlHelper.m; sourceTree = "<group>"; };
+		3A110D1F2367E2C80082D375 /* OHMySQLQueryContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLQueryContext.m; sourceTree = "<group>"; };
+		3A110D202367E2C80082D375 /* OHMySQLStoreCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLStoreCoordinator.h; sourceTree = "<group>"; };
+		3A110D212367E2C80082D375 /* OHMySQLQueryRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLQueryRequestFactory.m; sourceTree = "<group>"; };
+		3A110D222367E2C80082D375 /* OHMySQLContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLContainer.h; sourceTree = "<group>"; };
+		3A110D242367E2C80082D375 /* OHCharsetEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHCharsetEncoding.m; sourceTree = "<group>"; };
+		3A110D252367E2C80082D375 /* OHProtocolType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHProtocolType.h; sourceTree = "<group>"; };
+		3A110D262367E2C80082D375 /* OHJoinConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHJoinConstants.m; sourceTree = "<group>"; };
+		3A110D272367E2C80082D375 /* OHLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHLogging.h; sourceTree = "<group>"; };
+		3A110D282367E2C80082D375 /* OHCharsetEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHCharsetEncoding.h; sourceTree = "<group>"; };
+		3A110D292367E2C80082D375 /* OHJoinConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHJoinConstants.h; sourceTree = "<group>"; };
+		3A110D2A2367E2C80082D375 /* OHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHConstants.h; sourceTree = "<group>"; };
+		3A110D2B2367E2C80082D375 /* OHRefreshOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHRefreshOptions.h; sourceTree = "<group>"; };
+		3A110D2C2367E2C80082D375 /* OHResultErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHResultErrorType.h; sourceTree = "<group>"; };
+		3A110D2D2367E2C80082D375 /* OHMySQLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLSerialization.h; sourceTree = "<group>"; };
+		3A110D2E2367E2C80082D375 /* OHSerializationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHSerializationProtocol.h; sourceTree = "<group>"; };
+		3A110D302367E2C80082D375 /* OHSSLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHSSLConfig.h; sourceTree = "<group>"; };
+		3A110D312367E2C80082D375 /* OHMySQLTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLTimeline.h; sourceTree = "<group>"; };
+		3A110D322367E2C80082D375 /* OHMySQLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLUser.h; sourceTree = "<group>"; };
+		3A110D332367E2C80082D375 /* OHMySQLStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLStore.h; sourceTree = "<group>"; };
+		3A110D342367E2C80082D375 /* OHMySQLQueryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLQueryRequest.h; sourceTree = "<group>"; };
+		3A110D352367E2C80082D375 /* OHSSLConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHSSLConfig.m; sourceTree = "<group>"; };
+		3A110D362367E2C80082D375 /* OHMySQLStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLStore.m; sourceTree = "<group>"; };
+		3A110D372367E2C80082D375 /* OHMySQLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLUser.m; sourceTree = "<group>"; };
+		3A110D382367E2C80082D375 /* OHMySQLTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLTimeline.m; sourceTree = "<group>"; };
+		3A110D392367E2C80082D375 /* OHMySQLQueryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLQueryRequest.m; sourceTree = "<group>"; };
+		3A110D3A2367E2C80082D375 /* OHMySQLQueryContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLQueryContext.h; sourceTree = "<group>"; };
+		3A110D3B2367E2C80082D375 /* OHMySQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQL.h; sourceTree = "<group>"; };
+		3A110D3C2367E2C80082D375 /* OHMappingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMappingProtocol.h; sourceTree = "<group>"; };
+		3A110D3D2367E2C80082D375 /* OHMySQLContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLContainer.m; sourceTree = "<group>"; };
+		3A110D3E2367E2C80082D375 /* OHMySQLQueryRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHMySQLQueryRequestFactory.h; sourceTree = "<group>"; };
+		3A110D3F2367E2C80082D375 /* OHMySQLStoreCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLStoreCoordinator.m; sourceTree = "<group>"; };
+		3A110D422367E2C80082D375 /* mysql_com_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_com_server.h; sourceTree = "<group>"; };
+		3A110D432367E2C80082D375 /* byte_order_generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = byte_order_generic.h; sourceTree = "<group>"; };
+		3A110D442367E2C80082D375 /* my_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_command.h; sourceTree = "<group>"; };
+		3A110D452367E2C80082D375 /* thr_rwlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_rwlock.h; sourceTree = "<group>"; };
+		3A110D462367E2C80082D375 /* my_byteorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_byteorder.h; sourceTree = "<group>"; };
+		3A110D472367E2C80082D375 /* my_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_config.h; sourceTree = "<group>"; };
+		3A110D482367E2C80082D375 /* my_thread_local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_thread_local.h; sourceTree = "<group>"; };
+		3A110D492367E2C80082D375 /* keycache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keycache.h; sourceTree = "<group>"; };
+		3A110D4A2367E2C80082D375 /* binary_log_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary_log_types.h; sourceTree = "<group>"; };
+		3A110D4B2367E2C80082D375 /* mysqld_ername.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysqld_ername.h; sourceTree = "<group>"; };
+		3A110D4C2367E2C80082D375 /* m_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_ctype.h; sourceTree = "<group>"; };
+		3A110D4D2367E2C80082D375 /* big_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_endian.h; sourceTree = "<group>"; };
+		3A110D4E2367E2C80082D375 /* my_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_global.h; sourceTree = "<group>"; };
+		3A110D4F2367E2C80082D375 /* little_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = little_endian.h; sourceTree = "<group>"; };
+		3A110D502367E2C80082D375 /* thr_cond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_cond.h; sourceTree = "<group>"; };
+		3A110D512367E2C80082D375 /* mysql_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_version.h; sourceTree = "<group>"; };
+		3A110D522367E2C80082D375 /* sslopt-vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-vars.h"; sourceTree = "<group>"; };
+		3A110D532367E2C80082D375 /* my_getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_getopt.h; sourceTree = "<group>"; };
+		3A110D542367E2C80082D375 /* decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimal.h; sourceTree = "<group>"; };
+		3A110D552367E2C80082D375 /* sslopt-case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-case.h"; sourceTree = "<group>"; };
+		3A110D562367E2C80082D375 /* m_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_string.h; sourceTree = "<group>"; };
+		3A110D572367E2C80082D375 /* mysql_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_time.h; sourceTree = "<group>"; };
+		3A110D582367E2C80082D375 /* my_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_thread.h; sourceTree = "<group>"; };
+		3A110D592367E2C80082D375 /* my_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_list.h; sourceTree = "<group>"; };
+		3A110D5A2367E2C80082D375 /* sslopt-longopts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-longopts.h"; sourceTree = "<group>"; };
+		3A110D5B2367E2C80082D375 /* typelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typelib.h; sourceTree = "<group>"; };
+		3A110D5C2367E2C80082D375 /* mysql_com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_com.h; sourceTree = "<group>"; };
+		3A110D5E2367E2C80082D375 /* mysql_lex_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_lex_string.h; sourceTree = "<group>"; };
+		3A110D5F2367E2C80082D375 /* service_mysql_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service_mysql_alloc.h; sourceTree = "<group>"; };
+		3A110D602367E2C80082D375 /* plugin_auth_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin_auth_common.h; sourceTree = "<group>"; };
+		3A110D612367E2C80082D375 /* plugin_trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin_trace.h; sourceTree = "<group>"; };
+		3A110D622367E2C80082D375 /* get_password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = get_password.h; sourceTree = "<group>"; };
+		3A110D632367E2C80082D375 /* service_my_snprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service_my_snprintf.h; sourceTree = "<group>"; };
+		3A110D642367E2C80082D375 /* client_plugin.h.pp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = client_plugin.h.pp; sourceTree = "<group>"; };
+		3A110D652367E2C80082D375 /* client_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_plugin.h; sourceTree = "<group>"; };
+		3A110D672367E2C80082D375 /* mysql_ps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_ps.h; sourceTree = "<group>"; };
+		3A110D682367E2C80082D375 /* mysql_transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_transaction.h; sourceTree = "<group>"; };
+		3A110D692367E2C80082D375 /* mysql_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_file.h; sourceTree = "<group>"; };
+		3A110D6A2367E2C80082D375 /* mysql_idle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_idle.h; sourceTree = "<group>"; };
+		3A110D6B2367E2C80082D375 /* psi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psi.h; sourceTree = "<group>"; };
+		3A110D6C2367E2C80082D375 /* mysql_stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_stage.h; sourceTree = "<group>"; };
+		3A110D6D2367E2C80082D375 /* mysql_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_table.h; sourceTree = "<group>"; };
+		3A110D6E2367E2C80082D375 /* psi_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psi_memory.h; sourceTree = "<group>"; };
+		3A110D6F2367E2C80082D375 /* psi_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psi_base.h; sourceTree = "<group>"; };
+		3A110D702367E2C80082D375 /* mysql_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_socket.h; sourceTree = "<group>"; };
+		3A110D712367E2C80082D375 /* mysql_sp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_sp.h; sourceTree = "<group>"; };
+		3A110D722367E2C80082D375 /* mysql_statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_statement.h; sourceTree = "<group>"; };
+		3A110D732367E2C80082D375 /* mysql_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_thread.h; sourceTree = "<group>"; };
+		3A110D742367E2C80082D375 /* mysql_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_memory.h; sourceTree = "<group>"; };
+		3A110D752367E2C80082D375 /* mysql_mdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_mdl.h; sourceTree = "<group>"; };
+		3A110D762367E2C80082D375 /* client_authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_authentication.h; sourceTree = "<group>"; };
+		3A110D772367E2C80082D375 /* my_dir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dir.h; sourceTree = "<group>"; };
+		3A110D782367E2C80082D375 /* thr_mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_mutex.h; sourceTree = "<group>"; };
+		3A110D792367E2C80082D375 /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql.h; sourceTree = "<group>"; };
+		3A110D7A2367E2C80082D375 /* my_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_xml.h; sourceTree = "<group>"; };
+		3A110D7B2367E2C80082D375 /* sql_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sql_common.h; sourceTree = "<group>"; };
+		3A110D7C2367E2C80082D375 /* my_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alloc.h; sourceTree = "<group>"; };
+		3A110D7D2367E2C80082D375 /* byte_order_generic_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = byte_order_generic_x86.h; sourceTree = "<group>"; };
+		3A110D7E2367E2C80082D375 /* mysqld_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysqld_error.h; sourceTree = "<group>"; };
+		3A110D7F2367E2C80082D375 /* my_compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_compiler.h; sourceTree = "<group>"; };
+		3A110D802367E2C80082D375 /* my_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_sys.h; sourceTree = "<group>"; };
+		3A110D812367E2C80082D375 /* sql_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sql_state.h; sourceTree = "<group>"; };
+		3A110D822367E2C80082D375 /* my_dbug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dbug.h; sourceTree = "<group>"; };
+		3A110D832367E2C80082D375 /* errmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errmsg.h; sourceTree = "<group>"; };
+		3A110D842367E2C80082D375 /* mysql_embed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_embed.h; sourceTree = "<group>"; };
+		3A110D862367E2C80082D375 /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmysqlclient.a; sourceTree = "<group>"; };
+		3A110D882367E2C80082D375 /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmysqlclient.a; sourceTree = "<group>"; };
+		3A110D8A2367E2C80082D375 /* NSString+OHSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OHSerialization.m"; sourceTree = "<group>"; };
+		3A110D8B2367E2C80082D375 /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		3A110D8C2367E2C80082D375 /* NSString+Escaping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Escaping.h"; sourceTree = "<group>"; };
+		3A110D8D2367E2C80082D375 /* NSData+OHSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+OHSerialization.h"; sourceTree = "<group>"; };
+		3A110D8E2367E2C80082D375 /* NSNumber+OHSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+OHSerialization.h"; sourceTree = "<group>"; };
+		3A110D8F2367E2C80082D375 /* NSObject+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Mapping.m"; sourceTree = "<group>"; };
+		3A110D902367E2C80082D375 /* NSString+Escaping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Escaping.m"; sourceTree = "<group>"; };
+		3A110D912367E2C80082D375 /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		3A110D922367E2C80082D375 /* NSString+OHSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OHSerialization.h"; sourceTree = "<group>"; };
+		3A110D932367E2C80082D375 /* NSData+OHSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+OHSerialization.m"; sourceTree = "<group>"; };
+		3A110D942367E2C80082D375 /* NSNumber+OHSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+OHSerialization.m"; sourceTree = "<group>"; };
+		3A110D952367E2C80082D375 /* NSObject+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mapping.h"; sourceTree = "<group>"; };
+		3A110D962367E2C80082D375 /* OHMySQLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHMySQLSerialization.m; sourceTree = "<group>"; };
+		3A110DAC2367E3000082D375 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3A8F69BC2359659300AF6F32 /* RemoteMySqlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteMySqlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8F69BF2359659300AF6F32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A8F69C02359659300AF6F32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A8F69C52359659300AF6F32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A8F69C62359659300AF6F32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A8F69C92359659300AF6F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8F69CB2359659400AF6F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A8F69CE2359659400AF6F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A8F69D02359659400AF6F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8F69D12359659400AF6F32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8F69B92359659300AF6F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A110DAD2367E3000082D375 /* libc++.tbd in Frameworks */,
+				3A110DA32367E2C90082D375 /* libmysqlclient.a in Frameworks */,
+				3A110DA42367E2C90082D375 /* libmysqlclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A110D1E2367E2C80082D375 /* OHMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D1F2367E2C80082D375 /* OHMySQLQueryContext.m */,
+				3A110D202367E2C80082D375 /* OHMySQLStoreCoordinator.h */,
+				3A110D212367E2C80082D375 /* OHMySQLQueryRequestFactory.m */,
+				3A110D222367E2C80082D375 /* OHMySQLContainer.h */,
+				3A110D232367E2C80082D375 /* Constants */,
+				3A110D2D2367E2C80082D375 /* OHMySQLSerialization.h */,
+				3A110D2E2367E2C80082D375 /* OHSerializationProtocol.h */,
+				3A110D2F2367E2C80082D375 /* Models */,
+				3A110D3A2367E2C80082D375 /* OHMySQLQueryContext.h */,
+				3A110D3B2367E2C80082D375 /* OHMySQL.h */,
+				3A110D3C2367E2C80082D375 /* OHMappingProtocol.h */,
+				3A110D3D2367E2C80082D375 /* OHMySQLContainer.m */,
+				3A110D3E2367E2C80082D375 /* OHMySQLQueryRequestFactory.h */,
+				3A110D3F2367E2C80082D375 /* OHMySQLStoreCoordinator.m */,
+				3A110D402367E2C80082D375 /* lib */,
+				3A110D892367E2C80082D375 /* Categories */,
+				3A110D962367E2C80082D375 /* OHMySQLSerialization.m */,
+			);
+			path = OHMySQL;
+			sourceTree = "<group>";
+		};
+		3A110D232367E2C80082D375 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D242367E2C80082D375 /* OHCharsetEncoding.m */,
+				3A110D252367E2C80082D375 /* OHProtocolType.h */,
+				3A110D262367E2C80082D375 /* OHJoinConstants.m */,
+				3A110D272367E2C80082D375 /* OHLogging.h */,
+				3A110D282367E2C80082D375 /* OHCharsetEncoding.h */,
+				3A110D292367E2C80082D375 /* OHJoinConstants.h */,
+				3A110D2A2367E2C80082D375 /* OHConstants.h */,
+				3A110D2B2367E2C80082D375 /* OHRefreshOptions.h */,
+				3A110D2C2367E2C80082D375 /* OHResultErrorType.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3A110D2F2367E2C80082D375 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D302367E2C80082D375 /* OHSSLConfig.h */,
+				3A110D312367E2C80082D375 /* OHMySQLTimeline.h */,
+				3A110D322367E2C80082D375 /* OHMySQLUser.h */,
+				3A110D332367E2C80082D375 /* OHMySQLStore.h */,
+				3A110D342367E2C80082D375 /* OHMySQLQueryRequest.h */,
+				3A110D352367E2C80082D375 /* OHSSLConfig.m */,
+				3A110D362367E2C80082D375 /* OHMySQLStore.m */,
+				3A110D372367E2C80082D375 /* OHMySQLUser.m */,
+				3A110D382367E2C80082D375 /* OHMySQLTimeline.m */,
+				3A110D392367E2C80082D375 /* OHMySQLQueryRequest.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A110D402367E2C80082D375 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D412367E2C80082D375 /* include */,
+				3A110D852367E2C80082D375 /* ios */,
+				3A110D872367E2C80082D375 /* mac */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3A110D412367E2C80082D375 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D422367E2C80082D375 /* mysql_com_server.h */,
+				3A110D432367E2C80082D375 /* byte_order_generic.h */,
+				3A110D442367E2C80082D375 /* my_command.h */,
+				3A110D452367E2C80082D375 /* thr_rwlock.h */,
+				3A110D462367E2C80082D375 /* my_byteorder.h */,
+				3A110D472367E2C80082D375 /* my_config.h */,
+				3A110D482367E2C80082D375 /* my_thread_local.h */,
+				3A110D492367E2C80082D375 /* keycache.h */,
+				3A110D4A2367E2C80082D375 /* binary_log_types.h */,
+				3A110D4B2367E2C80082D375 /* mysqld_ername.h */,
+				3A110D4C2367E2C80082D375 /* m_ctype.h */,
+				3A110D4D2367E2C80082D375 /* big_endian.h */,
+				3A110D4E2367E2C80082D375 /* my_global.h */,
+				3A110D4F2367E2C80082D375 /* little_endian.h */,
+				3A110D502367E2C80082D375 /* thr_cond.h */,
+				3A110D512367E2C80082D375 /* mysql_version.h */,
+				3A110D522367E2C80082D375 /* sslopt-vars.h */,
+				3A110D532367E2C80082D375 /* my_getopt.h */,
+				3A110D542367E2C80082D375 /* decimal.h */,
+				3A110D552367E2C80082D375 /* sslopt-case.h */,
+				3A110D562367E2C80082D375 /* m_string.h */,
+				3A110D572367E2C80082D375 /* mysql_time.h */,
+				3A110D582367E2C80082D375 /* my_thread.h */,
+				3A110D592367E2C80082D375 /* my_list.h */,
+				3A110D5A2367E2C80082D375 /* sslopt-longopts.h */,
+				3A110D5B2367E2C80082D375 /* typelib.h */,
+				3A110D5C2367E2C80082D375 /* mysql_com.h */,
+				3A110D5D2367E2C80082D375 /* mysql */,
+				3A110D772367E2C80082D375 /* my_dir.h */,
+				3A110D782367E2C80082D375 /* thr_mutex.h */,
+				3A110D792367E2C80082D375 /* mysql.h */,
+				3A110D7A2367E2C80082D375 /* my_xml.h */,
+				3A110D7B2367E2C80082D375 /* sql_common.h */,
+				3A110D7C2367E2C80082D375 /* my_alloc.h */,
+				3A110D7D2367E2C80082D375 /* byte_order_generic_x86.h */,
+				3A110D7E2367E2C80082D375 /* mysqld_error.h */,
+				3A110D7F2367E2C80082D375 /* my_compiler.h */,
+				3A110D802367E2C80082D375 /* my_sys.h */,
+				3A110D812367E2C80082D375 /* sql_state.h */,
+				3A110D822367E2C80082D375 /* my_dbug.h */,
+				3A110D832367E2C80082D375 /* errmsg.h */,
+				3A110D842367E2C80082D375 /* mysql_embed.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3A110D5D2367E2C80082D375 /* mysql */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D5E2367E2C80082D375 /* mysql_lex_string.h */,
+				3A110D5F2367E2C80082D375 /* service_mysql_alloc.h */,
+				3A110D602367E2C80082D375 /* plugin_auth_common.h */,
+				3A110D612367E2C80082D375 /* plugin_trace.h */,
+				3A110D622367E2C80082D375 /* get_password.h */,
+				3A110D632367E2C80082D375 /* service_my_snprintf.h */,
+				3A110D642367E2C80082D375 /* client_plugin.h.pp */,
+				3A110D652367E2C80082D375 /* client_plugin.h */,
+				3A110D662367E2C80082D375 /* psi */,
+				3A110D762367E2C80082D375 /* client_authentication.h */,
+			);
+			path = mysql;
+			sourceTree = "<group>";
+		};
+		3A110D662367E2C80082D375 /* psi */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D672367E2C80082D375 /* mysql_ps.h */,
+				3A110D682367E2C80082D375 /* mysql_transaction.h */,
+				3A110D692367E2C80082D375 /* mysql_file.h */,
+				3A110D6A2367E2C80082D375 /* mysql_idle.h */,
+				3A110D6B2367E2C80082D375 /* psi.h */,
+				3A110D6C2367E2C80082D375 /* mysql_stage.h */,
+				3A110D6D2367E2C80082D375 /* mysql_table.h */,
+				3A110D6E2367E2C80082D375 /* psi_memory.h */,
+				3A110D6F2367E2C80082D375 /* psi_base.h */,
+				3A110D702367E2C80082D375 /* mysql_socket.h */,
+				3A110D712367E2C80082D375 /* mysql_sp.h */,
+				3A110D722367E2C80082D375 /* mysql_statement.h */,
+				3A110D732367E2C80082D375 /* mysql_thread.h */,
+				3A110D742367E2C80082D375 /* mysql_memory.h */,
+				3A110D752367E2C80082D375 /* mysql_mdl.h */,
+			);
+			path = psi;
+			sourceTree = "<group>";
+		};
+		3A110D852367E2C80082D375 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D862367E2C80082D375 /* libmysqlclient.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		3A110D872367E2C80082D375 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D882367E2C80082D375 /* libmysqlclient.a */,
+			);
+			path = mac;
+			sourceTree = "<group>";
+		};
+		3A110D892367E2C80082D375 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D8A2367E2C80082D375 /* NSString+OHSerialization.m */,
+				3A110D8B2367E2C80082D375 /* NSString+Utility.m */,
+				3A110D8C2367E2C80082D375 /* NSString+Escaping.h */,
+				3A110D8D2367E2C80082D375 /* NSData+OHSerialization.h */,
+				3A110D8E2367E2C80082D375 /* NSNumber+OHSerialization.h */,
+				3A110D8F2367E2C80082D375 /* NSObject+Mapping.m */,
+				3A110D902367E2C80082D375 /* NSString+Escaping.m */,
+				3A110D912367E2C80082D375 /* NSString+Utility.h */,
+				3A110D922367E2C80082D375 /* NSString+OHSerialization.h */,
+				3A110D932367E2C80082D375 /* NSData+OHSerialization.m */,
+				3A110D942367E2C80082D375 /* NSNumber+OHSerialization.m */,
+				3A110D952367E2C80082D375 /* NSObject+Mapping.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3A8F69B32359659300AF6F32 = {
+			isa = PBXGroup;
+			children = (
+				3A8F69BE2359659300AF6F32 /* RemoteMySqlDemo */,
+				3A8F69BD2359659300AF6F32 /* Products */,
+				BAE132E6E5524468CF3D42BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8F69BD2359659300AF6F32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8F69BC2359659300AF6F32 /* RemoteMySqlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8F69BE2359659300AF6F32 /* RemoteMySqlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A110D1E2367E2C80082D375 /* OHMySQL */,
+				3A8F69BF2359659300AF6F32 /* AppDelegate.h */,
+				3A8F69C02359659300AF6F32 /* AppDelegate.m */,
+				3A8F69C52359659300AF6F32 /* ViewController.h */,
+				3A8F69C62359659300AF6F32 /* ViewController.m */,
+				3A0D81DF235DA3DD0007AC41 /* OHMysqlHelper.h */,
+				3A0D81E0235DA3DD0007AC41 /* OHMysqlHelper.m */,
+				3A8F69C82359659300AF6F32 /* Main.storyboard */,
+				3A8F69CB2359659400AF6F32 /* Assets.xcassets */,
+				3A8F69CD2359659400AF6F32 /* LaunchScreen.storyboard */,
+				3A8F69D02359659400AF6F32 /* Info.plist */,
+				3A8F69D12359659400AF6F32 /* main.m */,
+			);
+			path = RemoteMySqlDemo;
+			sourceTree = "<group>";
+		};
+		BAE132E6E5524468CF3D42BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A110DAC2367E3000082D375 /* libc++.tbd */,
+				1869E005909CEC69C8FEC9D1 /* Pods_RemoteMySqlDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8F69BB2359659300AF6F32 /* RemoteMySqlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8F69D52359659400AF6F32 /* Build configuration list for PBXNativeTarget "RemoteMySqlDemo" */;
+			buildPhases = (
+				3A8F69B82359659300AF6F32 /* Sources */,
+				3A8F69B92359659300AF6F32 /* Frameworks */,
+				3A8F69BA2359659300AF6F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteMySqlDemo;
+			productName = RemoteMySqlDemo;
+			productReference = 3A8F69BC2359659300AF6F32 /* RemoteMySqlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8F69B42359659300AF6F32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = ZZ;
+				TargetAttributes = {
+					3A8F69BB2359659300AF6F32 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A8F69B72359659300AF6F32 /* Build configuration list for PBXProject "RemoteMySqlDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8F69B32359659300AF6F32;
+			productRefGroup = 3A8F69BD2359659300AF6F32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8F69BB2359659300AF6F32 /* RemoteMySqlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8F69BA2359659300AF6F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8F69CF2359659400AF6F32 /* LaunchScreen.storyboard in Resources */,
+				3A8F69CC2359659400AF6F32 /* Assets.xcassets in Resources */,
+				3A8F69CA2359659300AF6F32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8F69B82359659300AF6F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A110D9B2367E2C80082D375 /* OHSSLConfig.m in Sources */,
+				3A110DA92367E2C90082D375 /* NSData+OHSerialization.m in Sources */,
+				3A110D9A2367E2C80082D375 /* OHJoinConstants.m in Sources */,
+				3A110DA72367E2C90082D375 /* NSObject+Mapping.m in Sources */,
+				3A110DA82367E2C90082D375 /* NSString+Escaping.m in Sources */,
+				3A8F69C72359659300AF6F32 /* ViewController.m in Sources */,
+				3A110DA22367E2C90082D375 /* client_plugin.h.pp in Sources */,
+				3A110DA02367E2C90082D375 /* OHMySQLContainer.m in Sources */,
+				3A8F69C12359659300AF6F32 /* AppDelegate.m in Sources */,
+				3A110DA12367E2C90082D375 /* OHMySQLStoreCoordinator.m in Sources */,
+				3A110D9E2367E2C90082D375 /* OHMySQLTimeline.m in Sources */,
+				3A8F69D22359659400AF6F32 /* main.m in Sources */,
+				3A110DA52367E2C90082D375 /* NSString+OHSerialization.m in Sources */,
+				3A110DA62367E2C90082D375 /* NSString+Utility.m in Sources */,
+				3A110D982367E2C80082D375 /* OHMySQLQueryRequestFactory.m in Sources */,
+				3A0D81E1235DA3DD0007AC41 /* OHMysqlHelper.m in Sources */,
+				3A110D9F2367E2C90082D375 /* OHMySQLQueryRequest.m in Sources */,
+				3A110D9D2367E2C90082D375 /* OHMySQLUser.m in Sources */,
+				3A110D992367E2C80082D375 /* OHCharsetEncoding.m in Sources */,
+				3A110DAA2367E2C90082D375 /* NSNumber+OHSerialization.m in Sources */,
+				3A110DAB2367E2C90082D375 /* OHMySQLSerialization.m in Sources */,
+				3A110D972367E2C80082D375 /* OHMySQLQueryContext.m in Sources */,
+				3A110D9C2367E2C80082D375 /* OHMySQLStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8F69C82359659300AF6F32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8F69C92359659300AF6F32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A8F69CD2359659400AF6F32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8F69CE2359659400AF6F32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8F69D32359659400AF6F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A8F69D42359659400AF6F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A8F69D62359659400AF6F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWV2B4579F;
+				INFOPLIST_FILE = RemoteMySqlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RemoteMySqlDemo/OHMySQL/lib/ios",
+					"$(PROJECT_DIR)/RemoteMySqlDemo/OHMySQL/lib/mac",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zz.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A8F69D72359659400AF6F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWV2B4579F;
+				INFOPLIST_FILE = RemoteMySqlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RemoteMySqlDemo/OHMySQL/lib/ios",
+					"$(PROJECT_DIR)/RemoteMySqlDemo/OHMySQL/lib/mac",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zz.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8F69B72359659300AF6F32 /* Build configuration list for PBXProject "RemoteMySqlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8F69D32359659400AF6F32 /* Debug */,
+				3A8F69D42359659400AF6F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8F69D52359659400AF6F32 /* Build configuration list for PBXNativeTarget "RemoteMySqlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8F69D62359659400AF6F32 /* Debug */,
+				3A8F69D72359659400AF6F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8F69B42359659300AF6F32 /* Project object */;
+}
